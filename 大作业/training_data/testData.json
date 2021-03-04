@@ -1,0 +1,185 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "What is open price AAPL ytd",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "open price",
+            "entity": "description"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "AAPL",
+            "entity": "stock"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "ytd",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "I want to know open price AAPL ytd",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "open price",
+            "entity": "description"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "AAPL",
+            "entity": "stock"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "ytd",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "I'm eager to learn yesterday open price of Apple Inc.",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "yesterday",
+            "entity": "time"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "open price",
+            "entity": "description"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "Apple Inc.",
+            "entity": "stock"
+          }
+        ]
+      },
+      {
+        "text": "I want to know ytd volume of Apple Inc.",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "ytd",
+            "entity": "time"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "volume",
+            "entity": "description"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "Apple Inc.",
+            "entity": "stock"
+          }
+        ]
+      },
+      {
+        "text": "tell me the market cap of Apple Inc.",
+        "intent": "query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "market cap",
+            "entity": "description"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "Apple Inc.",
+            "entity": "stock"
+          }
+        ]
+      }
+    ]
+  }
+}
